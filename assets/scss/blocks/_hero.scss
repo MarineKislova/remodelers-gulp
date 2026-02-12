@@ -1,0 +1,177 @@
+@use "utils/_mixins" as mh;
+
+.hero {
+  background-color: #fff;
+  max-height: min-content;
+  padding: 10.24px;
+  margin-top: -60px;
+  margin-left: 10px;
+  position: relative;
+  z-index: 10; /* Чтобы быть поверх других элементов */
+  border: 1px solid #f0f0f0;
+  // width: 216.54px;
+  width: 100%;
+  border-radius: 2px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.71);
+
+  &__top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5.12px;
+    border-bottom: 1px solid #cccbcb;
+    padding: 5px;
+  }
+
+  &__top-img {
+    display: flex;
+    img {
+      width: 100%;
+      height: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 50%;
+      background-color: #7b7b7b;
+    }
+  }
+
+  &__top-subtitle {
+    width: 50%;
+    line-height: 1.1;
+    text-align: left;
+    font-weight: 400;
+    line-height: 1.4;
+
+    h3 {
+      @include mh.adaptiv-value("font-size", 18, 13.5, 0);
+      font-weight: 600;
+    }
+    p {
+      font-family: "Noto Sans";
+      @include mh.adaptiv-value("font-size", 14, 10.5, 0);
+    }
+  }
+
+  &__rating {
+    display: flex;
+    justify-content: center;
+    gap: 5.12px;
+    border-bottom: 1px solid #cccbcb;
+    padding: 5px;
+
+    p {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: "Noto Sans";
+      @include mh.adaptiv-value("font-size", 14, 10.5, 0);
+      line-height: 1.4;
+    }
+  }
+
+  &__about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5.12px;
+    border-bottom: 1px solid #cccbcb;
+    padding: 5px;
+    font-family: "Noto Sans";
+    font-weight: 400;
+    line-height: 1.6;
+
+    h4 {
+      @include mh.adaptiv-value("font-size", 16, 12, 0);
+      font-weight: 500;
+    }
+    p {
+      @include mh.adaptiv-value("font-size", 14, 10.5, 0);
+    }
+  }
+
+  &__about-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+  }
+
+  &__about-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include mh.adaptiv-value("font-size", 14, 10.5, 0);
+    border: 1px solid #7b7b7b;
+    padding: 4px 8px; // Вернул паддинги для формы
+    cursor: pointer;
+    background: transparent;
+    line-height: normal;
+
+    // &.active {
+    //   background-color: #212121;
+    //   color: #fff;
+    // }
+    &:hover {
+      background-color: #212121;
+      color: #fff;
+      border: none;
+      box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.51);
+      .fa-plus,
+      .fa-envelope {
+        color: #fff;
+      }
+    }
+  }
+
+  &__about-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5.12px;
+    padding: 5px;
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    } // поменять на видео video
+  }
+
+  &__about-me {
+  }
+
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5.12px;
+    padding: 5px;
+    font-family: "Noto Sans";
+    font-weight: 400;
+    line-height: 1.6;
+
+    h4 {
+      @include mh.adaptiv-value("font-size", 16, 12, 0);
+      font-weight: 500;
+    }
+    p {
+      @include mh.adaptiv-value("font-size", 14, 10.5, 0);
+    }
+  }
+}
+
+.fa-solid {
+  color: #5c5c5c;
+  padding-right: 5px;
+}
+.fa-location-dot {
+}
+.fa-plus {
+}
+.fa-envelope {
+}
+.fa-globe {
+}
+.fa-phone {
+}
+.fa-id-card {
+}

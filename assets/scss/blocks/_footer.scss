@@ -1,0 +1,39 @@
+@use "utils/_mixins" as mh;
+.footer {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #f7f7f7 !important;
+    border-top: 1px solid #ddd;
+    box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.1);
+    font-family: "Noto Sans";
+    font-weight: 700;
+  }
+  &__rights {
+    a {
+      color: blueviolet;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    gap: 15px;
+  }
+
+  &__social {
+    display: flex;
+    gap: 20px;
+  }
+}
+.fab {
+  color: brown;
+  padding-right: 5px;
+}
+.fa-facebook-f {
+}
+.fa-twitter {
+}
+.fa-instagram {
+}

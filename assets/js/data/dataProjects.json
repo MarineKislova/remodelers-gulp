@@ -1,0 +1,242 @@
+[
+  {
+    "id": "project1",
+    "title": "Space Reset",
+    "category": "",
+    "year": 2024,
+    "demoImg": "img/project1/demo-project1_640.jpg",
+    "gallery": [
+      {
+        "src": "img/project1/bedroom-1_640.jpg",
+        "alt": "bedroom-1"
+      },
+      {
+        "src": "img/project1/kitchen-1_640.jpg",
+        "alt": "kitchen-1"
+      },
+      {
+        "src": "img/project1/living-room-1_640.jpg",
+        "alt": "living-room-1"
+      },
+      {
+        "src": "img/project1/mastersbedroom-1_640.jpg",
+        "alt": "mastersbedroom-1"
+      },
+      {
+        "src": "img/project1/wardrobe-1_640.jpg",
+        "alt": "wardrobe-1"
+      }
+    ],
+    "description": "<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, perspiciatis? Dignissimos, laboriosam quibusdam nemo cumque incidunt quisquam saepe ad excepturi veniam modi. Fugit similique officia totam rerum ullam, dolorum soluta.  </p> <p>Aut magni beatae cupiditate, aspernatur voluptatum vero in fugit voluptas cum quidem quasi culpa quaerat rem recusandae esse! Id sed doloribus sapiente animi corrupti eveniet nisi quis porro voluptatibus quidem.</p>",
+    "author": "Jeffrey Hofgan"
+  },
+  {
+    "id": "project2",
+    "title": "Quiet Comfort",
+    "category": "",
+    "year": 2023,
+    "demoImg": "img/project2/demo-project2_640.jpg",
+    "gallery": [
+      {
+        "src": "img/project2/bathroom-2_640.jpg",
+        "alt": "bathroom-2"
+      },
+      {
+        "src": "img/project2/bedroom-2_640.jpg",
+        "alt": "bedroom-2"
+      },
+      {
+        "src": "img/project2/kitchen-2_640.jpg",
+        "alt": "kitchen-2"
+      },
+      {
+        "src": "img/project2/living-room-2_640.jpg",
+        "alt": "living-room-2"
+      },
+      {
+        "src": "img/project2/mastersbedroom-2_640.jpg",
+        "alt": "mastersbedroom-2"
+      }
+    ],
+    "description": "<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, perspiciatis? Dignissimos, laboriosam quibusdam nemo cumque incidunt quisquam saepe ad excepturi veniam modi. Fugit similique officia totam rerum ullam, dolorum soluta.  </p> <p>Aut magni beatae cupiditate, aspernatur voluptatum vero in fugit voluptas cum quidem quasi culpa quaerat rem recusandae esse! Id sed doloribus sapiente animi corrupti eveniet nisi quis porro voluptatibus quidem.</p>",
+    "author": "Jeffrey Hofgan"
+  },
+  {
+    "id": "project3",
+    "title": "Second Breath",
+    "category": "",
+    "year": 2024,
+    "demoImg": "img/project3/demo-project3_640.jpg",
+    "gallery": [
+      {
+        "src": "img/project3/bathroom-30_640.jpg",
+        "alt": "bathroom-30"
+      },
+      {
+        "src": "img/project3/bathroom-31_640.jpg",
+        "alt": "bathroom-31"
+      },
+      {
+        "src": "img/project3/bedroom-3_640.jpg",
+        "alt": "bedroom-3"
+      },
+      {
+        "src": "img/project3/kitchen-3_640.jpg",
+        "alt": "kitchen-3"
+      },
+      {
+        "src": "img/project3/living-room-3_640.jpg",
+        "alt": "living-room-3"
+      },
+      {
+        "src": "img/project3/masters-bedroom-3_640.jpg",
+        "alt": "masters-bedroom-3"
+      }
+    ],
+    "description": "<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, perspiciatis? Dignissimos, laboriosam quibusdam nemo cumque incidunt quisquam saepe ad excepturi veniam modi. Fugit similique officia totam rerum ullam, dolorum soluta.  </p> <p>Aut magni beatae cupiditate, aspernatur voluptatum vero in fugit voluptas cum quidem quasi culpa quaerat rem recusandae esse! Id sed doloribus sapiente animi corrupti eveniet nisi quis porro voluptatibus quidem.</p>",
+    "author": "Jeffrey Hofgan"
+  },
+  {
+    "id": "project4",
+    "title": "Inside Flow",
+    "category": "",
+    "year": 2025,
+    "demoImg": "img/project4/demo-project4_640.jpg",
+    "gallery": [
+      {
+        "src": "img/project4/bathroom-4_640.jpg",
+        "alt": "bathroom-4"
+      },
+      {
+        "src": "img/project4/bedroom-4_640.jpg",
+        "alt": "bedroom-4"
+      },
+      {
+        "src": "img/project4/kitchen-4_640.jpg",
+        "alt": "kitchen-4"
+      },
+      {
+        "src": "img/project4/living-room-4_640.jpg",
+        "alt": "living-room-4"
+      },
+      {
+        "src": "img/project4/mastersbedroom-4_640.jpg",
+        "alt": "mastersbedroom-4"
+      }
+    ],
+    "description": "<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, perspiciatis? Dignissimos, laboriosam quibusdam nemo cumque incidunt quisquam saepe ad excepturi veniam modi. Fugit similique officia totam rerum ullam, dolorum soluta.  </p> <p>Aut magni beatae cupiditate, aspernatur voluptatum vero in fugit voluptas cum quidem quasi culpa quaerat rem recusandae esse! Id sed doloribus sapiente animi corrupti eveniet nisi quis porro voluptatibus quidem.</p>",
+    "author": "Jeffrey Hofgan"
+  },
+  {
+    "id": "project5",
+    "title": "Open Balance",
+    "category": "",
+    "year": 2024,
+    "demoImg": "img/project5/demo-project5_640.jpg",
+    "gallery": [
+      {
+        "src": "img/project5/bathroom-5_640.jpg",
+        "alt": "bathroom-5"
+      },
+      {
+        "src": "img/project5/bedroom-5_640.jpg",
+        "alt": "bedroom-5"
+      },
+      {
+        "src": "img/project5/kitchen-5_640.jpg",
+        "alt": "kitchen-5"
+      },
+      {
+        "src": "img/project5/living-room-5_640.jpg",
+        "alt": "living-room-5"
+      },
+      {
+        "src": "img/project5/masters-bedroom-5_640.jpg",
+        "alt": "masters-bedroom-5"
+      }
+    ],
+    "description": "<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, perspiciatis? Dignissimos, laboriosam quibusdam nemo cumque incidunt quisquam saepe ad excepturi veniam modi. Fugit similique officia totam rerum ullam, dolorum soluta.  </p> <p>Aut magni beatae cupiditate, aspernatur voluptatum vero in fugit voluptas cum quidem quasi culpa quaerat rem recusandae esse! Id sed doloribus sapiente animi corrupti eveniet nisi quis porro voluptatibus quidem.</p>",
+    "author": "Jeffrey Hofgan"
+  },
+  {
+    "id": "project6",
+    "title": "Living Form",
+    "category": "",
+    "year": 2023,
+    "demoImg": "img/project6/demo-project6_640.jpg",
+    "gallery": [
+      {
+        "src": "img/project6/bathroom-6_640.jpg",
+        "alt": "bathroom-6"
+      },
+      {
+        "src": "img/project6/bedroom-6_640.jpg",
+        "alt": "bedroom-6"
+      },
+      {
+        "src": "img/project6/kitchen-6_640.jpg",
+        "alt": "kitchen-6"
+      },
+      {
+        "src": "img/project6/living-room-6_640.jpg",
+        "alt": "living-room-6"
+      },
+      {
+        "src": "img/project6/masters-bedroom-6_640.jpg",
+        "alt": "masters-bedroom-6"
+      }
+    ],
+    "description": "<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, perspiciatis? Dignissimos, laboriosam quibusdam nemo cumque incidunt quisquam saepe ad excepturi veniam modi. Fugit similique officia totam rerum ullam, dolorum soluta.  </p> <p>Aut magni beatae cupiditate, aspernatur voluptatum vero in fugit voluptas cum quidem quasi culpa quaerat rem recusandae esse! Id sed doloribus sapiente animi corrupti eveniet nisi quis porro voluptatibus quidem.</p>",
+    "author": "Jeffrey Hofgan"
+  },
+  {
+    "id": "project7",
+    "title": "New Geometry",
+    "category": "",
+    "year": 2025,
+    "demoImg": "img/project7/demo-project7_640.jpg",
+    "gallery": [
+      {
+        "src": "img/project7/alpay20-living-room-7_640.jpg",
+        "alt": ""
+      },
+      {
+        "src": "img/project7/alpay21-living-room-7_640.jpg",
+        "alt": ""
+      },
+      {
+        "src": "img/project7/bathroom-7_640.jpg",
+        "alt": ""
+      },
+      {
+        "src": "img/project7/kitchten-7_640.jpg",
+        "alt": ""
+      },
+      {
+        "src": "img/project7/mastersbedroom-7_640.jpg",
+        "alt": ""
+      }
+    ],
+    "description": "<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, perspiciatis? Dignissimos, laboriosam quibusdam nemo cumque incidunt quisquam saepe ad excepturi veniam modi. Fugit similique officia totam rerum ullam, dolorum soluta.  </p> <p>Aut magni beatae cupiditate, aspernatur voluptatum vero in fugit voluptas cum quidem quasi culpa quaerat rem recusandae esse! Id sed doloribus sapiente animi corrupti eveniet nisi quis porro voluptatibus quidem.</p>",
+    "author": "Jeffrey Hofgan"
+  },
+  {
+    "id": "",
+    "title": "",
+    "category": "",
+    "year": 2024,
+    "demoImg": "",
+    "gallery": [
+      {
+        "src": "",
+        "alt": ""
+      },
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "description": "",
+    "author": ""
+  }
+]

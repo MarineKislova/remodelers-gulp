@@ -1,0 +1,35 @@
+//утилиты
+@use "utils/_fonts.scss" as *;
+@use "utils/_reset.scss" as *;
+@use "utils/_mixins" as mSt;
+@use "utils/_settings.scss" as setSt;
+@use "utils/_variable.scss" as varSt;
+
+// блоки
+@use "blocks/_header.scss";
+@use "blocks/_main.scss";
+@use "blocks/_hero.scss";
+@use "blocks/_portfolio.scss";
+@use "blocks/_footer.scss";
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: rgb(130, 124, 115);
+}
+.content {
+  flex: 1 1 auto;
+  
+}
+
+[class*="__container"] {
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: rgb(190, 197, 198);
+  box-shadow: 1px 2px 3px rgba(6, 6, 6, 0.81);
+  
+}
+
