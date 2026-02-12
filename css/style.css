@@ -113,7 +113,7 @@ h6 {
 }
 
 .no-webp .header__container{
-  background: url(../../img/header_1280.jpg) center/cover no-repeat; }
+  background: url(../img/header_1280.jpg) center/cover no-repeat; }
 
 .header__container {
   display: -webkit-box;
@@ -840,14 +840,14 @@ h6 {
 
 @media (max-width: 640px) {
   .no-webp .header__container{
-    background: url(../../img/header_640.jpg) center/cover no-repeat; }
+    background: url(../img/header_640.jpg) center/cover no-repeat; }
 }
 
-.webp .header__container{ background: url(../../img/header_1280.webp) center/cover no-repeat; }
+.webp .header__container{ background: url(../img/header_1280.webp) center/cover no-repeat; }
 
 .webp .accordion__item-maintitle{ background: url(../../img/blog/blog-1_640.webp) center/100% no-repeat; }
 
 @media (max-width: 640px){
 
-  .webp .header__container{ background: url(../../img/header_640.webp) center/cover no-repeat; }
+  .webp .header__container{ background: url(../img/header_640.webp) center/cover no-repeat; }
 }
