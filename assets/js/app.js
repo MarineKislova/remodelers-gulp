@@ -84,7 +84,23 @@ window.addEventListener("DOMContentLoaded", () => {
       projectElement.dataset.id = project.id;
       projectElement.innerHTML = `
       <div class="project__img">
-        <img src="${project.demoImg}" alt="${project.title}" loading="lazy">
+                    <img
+                    src="${project.demoImg}"
+                    sizes="100vw"
+                    alt="${project.title}"
+                    loading="lazy"
+                    srcset="
+                      ${project.demoImg}  320w,
+                      ${project.demoImg}  375w,
+                      ${project.demoImg}  414w,
+                      ${project.demoImg}  768w,
+                      ${project.demoImg}  900w,
+                      ${project.demoImg} 1024w,
+                      ${project.demoImg} 1200w,
+                      ${project.demoImg} 1440w,
+                      ${project.demoImg} 1920w
+                    "
+              />
         </div>
       <button class="project__btn">${project.title}</button>`;
 
@@ -112,7 +128,23 @@ window.addEventListener("DOMContentLoaded", () => {
       .map(
         (img) => `
         <div class="project-gallery__item">
-            <img src="${img.src}" alt="${img.alt}" loading="lazy">
+            <img
+                    src="${img.src}"
+                    sizes="100vw"
+                    alt="${img.alt}"
+                    loading="lazy"
+                    srcset="
+                      ${img.src}  320w,
+                      ${img.src}  375w,
+                      ${img.src}  414w,
+                      ${img.src}  768w,
+                      ${img.src}  900w,
+                      ${img.src} 1024w,
+                      ${img.src} 1200w,
+                      ${img.src} 1440w,
+                      ${img.src} 1920w
+                    "
+              />
         </div>
     `,
       )
@@ -124,7 +156,23 @@ window.addEventListener("DOMContentLoaded", () => {
         (img, index) => `
     <div class="mySlides">
       <div class="numbertext">${index + 1} / ${project.gallery.length}</div>
-      <img src="${img.src}" style="width:100%">
+                  <img
+                    src="${img.src}"
+                    sizes="100vw"
+                    alt="${img.alt}"
+                    loading="lazy"
+                    srcset="
+                      ${img.src}  320w,
+                      ${img.src}  375w,
+                      ${img.src}  414w,
+                      ${img.src}  768w,
+                      ${img.src}  900w,
+                      ${img.src} 1024w,
+                      ${img.src} 1200w,
+                      ${img.src} 1440w,
+                      ${img.src} 1920w
+                    "
+              />
     </div>
   `,
       )
@@ -354,5 +402,4 @@ window.addEventListener("DOMContentLoaded", () => {
   }
 
   loadArticles();
-
 });
