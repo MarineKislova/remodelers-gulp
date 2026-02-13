@@ -10,9 +10,11 @@
     box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.1);
     font-family: "Noto Sans";
     font-weight: 700;
+    line-height: 1.4;
 
     @media (max-width: 768px) {
       flex-direction: column;
+      gap: 10px;
     }
   }
 
@@ -30,6 +32,10 @@
   &__social {
     display: flex;
     gap: 20px;
+        @media (max-width: 374px) {
+      flex-direction: column;
+      gap: 5px;
+    }
   }
 }
 .fab {
