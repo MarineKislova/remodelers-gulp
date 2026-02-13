@@ -32,7 +32,7 @@ export const processImages = () => {
             progressive: true, //если true, изображения будут сжаты с продвинутыми технологиями
             svgoConfig: [{ removeViewBox: false }], //убираем viewBox из SVG
             interlaced: true, //если true, изображения будут сжаты параллельно
-            optimizationLevel: 3, //уровень сжатия изображений (от 0 до 7)
+            optimizationLevel: 7, //уровень сжатия изображений (от 0 до 7)
           })
         )
       ) //сжимаем изображения
