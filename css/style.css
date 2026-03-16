@@ -805,7 +805,7 @@ h6 {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 10px;
-  background-color: rgb(130, 124, 115);
+  background-color: #F5F3F0;
 }
 
 .content {
