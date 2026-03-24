@@ -16,6 +16,7 @@
 }
 
 .header {
+  @include mh.adaptiv-value("padding-bottom", 0, 30, 0);
   &__container {
     display: flex;
     flex-direction: column;

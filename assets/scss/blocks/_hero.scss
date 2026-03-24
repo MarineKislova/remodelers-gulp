@@ -5,7 +5,7 @@
   max-height: min-content;
   padding: 10.24px;
   margin-top: -60px;
-  margin-left: 10px;
+  @include mh.adaptiv-value("margin-left", 10, 0, 0);
   position: relative;
   z-index: 10; /* Чтобы быть поверх других элементов */
   border: 1px solid #f0f0f0;
@@ -94,6 +94,7 @@
     justify-content: center;
     align-items: center;
     gap: 2px;
+    position: relative;
   }
 
   &__about-btn {

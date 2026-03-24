@@ -402,4 +402,82 @@ window.addEventListener("DOMContentLoaded", () => {
   }
 
   loadArticles();
+
+  /* popup */
+  // Ищем кнопки более надежно
+  const btnWish = document.querySelector(".hero__about-btn:nth-child(1)");
+  const btnWrite = document.querySelector(".hero__about-btn:nth-child(2)"); // Явно вторая кнопка
+  const toastAdded = document.getElementById("toast-added");
+  const modalEmailForm = document.getElementById("modal-email");
+  const closeBtnForm = document.querySelector(".modal-custom__close");
+
+  // Проверка в консоли (откройте F12 в браузере и посмотрите, что выведет)
+  console.log("Кнопка Write найдена:", btnWrite);
+  console.log("Модалка найдена:", modalEmailForm);
+
+  if (btnWish && toastAdded) {
+    btnWish.onclick = () => {
+      toastAdded.classList.add("show");
+      setTimeout(() => toastAdded.classList.remove("show"), 2000);
+    };
+  }
+
+  if (btnWrite && modalEmailForm) {
+    btnWrite.onclick = () => {
+      console.log("Клик по Write!"); // Проверка клика
+      modalEmailForm.classList.add("is-open");
+      document.body.style.overflow = "hidden";
+    };
+  }
+
+  const closeEmailModal = () => {
+    if (modalEmailForm) {
+      modalEmailForm.classList.remove("is-open");
+      document.body.style.overflow = "auto";
+    }
+  };
+
+  if (closeBtnForm) closeBtnForm.onclick = closeEmailModal;
+
+  if (modalEmailForm) {
+    modalEmailForm.onclick = (e) => {
+      if (e.target === modalEmailForm) closeEmailModal();
+    };
+  }
+
+  // Esc для закрытия
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeEmailModal();
+  });
+
+  // 5. Обработка отправки
+  const emailForm = document.getElementById("email-form");
+  if (emailForm) {
+    emailForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+
+      // Находим контейнер формы, чтобы временно скрыть его и показать сообщение
+      const formContainer = emailForm.parentElement;
+      const originalHTML = formContainer.innerHTML; // Сохраняем оригинал, если захотим сбросить
+
+      // Заменяем контент на сообщение об успехе
+      formContainer.innerHTML = `
+      <div class="form-success">
+        <i class="fa-solid fa-circle-check" style="font-size: 48px; color: #4CAF50; margin-bottom: 20px;"></i>
+        <h3 style="margin-bottom: 10px;">Sent Successfully!</h3>
+        <p>Thank you, your message has been received. We will contact you shortly.</p>
+        <button type="button" class="hero__about-btn" id="close-after-success" style="margin-top: 20px;">Close</button>
+      </div>
+    `;
+
+      // Логика закрытия после успеха
+      document.getElementById("close-after-success").onclick = () => {
+        closeEmailModal();
+        // Возвращаем форму в исходное состояние через полсекунды (когда модалка закроется)
+        setTimeout(() => {
+          formContainer.innerHTML = originalHTML;
+        }, 1);
+      };
+    });
+  }
 });
