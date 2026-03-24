@@ -21,12 +21,12 @@
   <!-- styles -->
   <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css?_v=20260316132013"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css?_v=20260324163737"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   />
-  <link rel="stylesheet" href="css/style.min.css?_v=20260316132013" />
+  <link rel="stylesheet" href="css/style.min.css?_v=20260324163737" />
   <title>Jeffrey Hofgan | Professional Remodeling & Interior Design</title>
 </head>
 
@@ -103,7 +103,10 @@
                 <div class="hero__about-btns">
                   <button class="hero__about-btn active" type="button"><i class="fa-solid fa-plus"></i>Add to wish</button>
                   <button class="hero__about-btn" type="button"><i class="fa-solid fa-envelope"></i>Write</button>
+
+                  <div id="toast-added" class="toast-custom">Added!</div>
                 </div>
+
                 <div class="hero__about-video">
                   <h4>Welcome video</h4>
                   <img src="img/Video.png" alt="video" />
@@ -161,7 +164,7 @@
                     <div class="modal-content-slides"></div>
 
                     <a class="prev" role="button" aria-label="Previous slide">&#10094;</a>
-                    <a class="next" role="button" aria-label="Next slide"></a>&#10095;</a>
+                    <a class="next" role="button" aria-label="Next slide">&#10095;</a>
 
                     <div class="caption-container">
                       <p id="caption"></p>
@@ -178,11 +181,26 @@
                   <div id="article1" class="accordion__item accordion-item">
                     <div class="accordion__item-maintitle"><h2>10 Renovation Mistakes That Can Cost You a Fortune</h2></div>
                     <div class="accordion__item-header accordion-toggle">
-                      <h3 class="accordion__item-title">Even a well-planned renovation can spiral out of control if you overlook key details. From hiring the wrong contractor to underestimating hidden costs, small mistakes lead to big expenses. Learn the most common renovation pitfalls and how to avoid turning your project into a financial nightmare.</h3>
+                      <h3 class="accordion__item-title">
+                        Even a well-planned renovation can spiral out of control if you overlook key details. From hiring the wrong contractor to underestimating hidden costs, small mistakes lead to
+                        big expenses. Learn the most common renovation pitfalls and how to avoid turning your project into a financial nightmare.
+                      </h3>
                       <span class="accordion__item-icon accordion-icon">+</span>
                     </div>
                     <div class="accordion__item-body">
-                     <p>Even the most exciting renovation can quickly turn into a financial disaster if common mistakes are ignored. Many property owners underestimate costs, skip detailed planning, or hire contractors based solely on price. Others change the scope mid-project, overlook permits, or fail to sign clear contracts. Each of these missteps can lead to delays, disputes, and serious budget overruns.</p> <p>In this article, we break down the ten most expensive renovation mistakes and explain how to avoid them. You’ll learn why contingency funds are essential, how to properly compare contractor bids, and what red flags to watch for before signing any agreement. We’ll also cover quality control, material selection, and realistic timelines.</p> <p>Whether you’re renovating to live in the property, rent it out, or prepare it for sale, avoiding these costly errors will save you money, time, and stress. Smart preparation is the difference between a profitable investment and an exhausting experience.</p>
+                      <p>
+                        Even the most exciting renovation can quickly turn into a financial disaster if common mistakes are ignored. Many property owners underestimate costs, skip detailed planning,
+                        or hire contractors based solely on price. Others change the scope mid-project, overlook permits, or fail to sign clear contracts. Each of these missteps can lead to delays,
+                        disputes, and serious budget overruns.
+                      </p>
+                      <p>
+                        In this article, we break down the ten most expensive renovation mistakes and explain how to avoid them. You’ll learn why contingency funds are essential, how to properly
+                        compare contractor bids, and what red flags to watch for before signing any agreement. We’ll also cover quality control, material selection, and realistic timelines.
+                      </p>
+                      <p>
+                        Whether you’re renovating to live in the property, rent it out, or prepare it for sale, avoiding these costly errors will save you money, time, and stress. Smart preparation is
+                        the difference between a profitable investment and an exhausting experience.
+                      </p>
                     </div>
                   </div>
                   <!-- item2 -->
@@ -219,6 +237,23 @@
           </div>
         </div>
       </main>
+
+      <!-- pop-up -->
+      <div id="modal-email" class="modal-custom">
+        <div class="modal-custom__content">
+          <span class="modal-custom__close">&times;</span>
+          <div class="simple-form">
+            <form id="email-form">
+              <h3>Contact via Email</h3>
+              <input type="text" name="name" placeholder="Your name *" required />
+              <input type="email" name="email" placeholder="Your Email *" required />
+              <textarea name="message" placeholder="How can we help you?"></textarea>
+              <button type="submit" id="submit-btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
       <!--  -->
       <footer class="footer">
   <div class="footer__container">
@@ -238,6 +273,6 @@
 
     </div>
 
-    <script src="js/app.min.js?_v=20260316132013"></script>
+    <script src="js/app.min.js?_v=20260324163737"></script>
   </body>
 </html>
