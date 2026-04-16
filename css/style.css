@@ -337,6 +337,8 @@ h6 {
           justify-content: center;
   gap: 5.12px;
   padding: 5px;
+  width: 100%;
+  height: 100%;
 }
 
 .hero__about-video img {
